@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	border: 0px;
+}
+body{
+	font-family: georgia;
+	/*background-color: black;*/
+	color: white;
+	
+}
+h1{
+	padding: 50px ;
+	
+}
+.family{
+	width: 100%;
+	height: 100%;
+	/*background-image: url(IMG_20190927_104524.jpg);*/
+	/*background-image: radial-gradient(blue, green, yellow, black);*/
+	background-image: linear-gradient(to right,orange,green,red,black );
+}
+/*.avi{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	border: 0px;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}*/
+.head{
+	position: absolute;
+	top: 30%;
+	left: 25%;
+
+}
+  div a{
+	float: left;
+	/*flex-direction:right;*/
+	/*padding: 30px;*/
+	color: black;
+	border:2px none white;
+}
+/*div a{
+	text-decoration: none;
+	float: left;
+	padding: 10px;
+	border: 2px solid grey;
+	margin: 3px;
+	background-color: grey;
+	color: pink;
+	border-radius: 7px;
+}*/
+.mom{
+	border-radius: 10px;
+	border: 1px solid black;
+	height: 30px;
+	outline: none;
+	padding: 5px;
+}
+.dad{
+	text-align: center;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto; 	
+	position: relative;
+	left: 50%;
+	font-size: 20px;
+
+}
+.dad1{
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	left: 50%;
+	border: 2px inset white;
+	border-radius: 8px;
+	padding: 15px;
+	background-color: grey;
+	text-decoration: none;
+	margin-right: 10px;
+}
+.child{
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+	color: white;
+	font-family: georgia;
+	font-size: 30px;
+	text-shadow: 3px 2px 3px pink;
+}
+@keyframes {
+	0%{
+		
+	}
+}
